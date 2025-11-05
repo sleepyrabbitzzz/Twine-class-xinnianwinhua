@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play ChineseNewYear.</tw-noscript></noscript></tw-story>
-<tw-storydata name="ChineseNewYear" startnode="2" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="DA4D4EE7-E7DB-4423-BA9C-4595D61A3CAE" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* --- 生詞卡片樣式 --- */
+<tw-storydata name="ChineseNewYear" startnode="2" creator="Twine" creator-version="2.11.0" format="Harlowe" format-version="3.3.9" ifid="DA4D4EE7-E7DB-4423-BA9C-4595D61A3CAE" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* --- 生詞卡片樣式 --- */
 .card {
   border: 1px solid #ccc;
   padding: 0.5em 1em 1em 1em;
@@ -219,7 +219,7 @@ tw-icon[title="Redo"] {
 [[開始：生詞-吉祥話|生詞-吉祥話]]
 [[開始：生詞-食物|生詞-食物]]</tw-passagedata><tw-passagedata pid="2" name="StoryMenu" tags="" position="300,100" size="100,100">#&lt;span style=&quot;font-size: 20pt;&quot;&gt;華人的新年文化 Chinese New year&#39;s Culture&lt;/span&gt;
 
-[[開始|Start]]</tw-passagedata><tw-passagedata pid="3" name="UI-Nav" tags="" position="0,250" size="100,100">&lt;div class=&quot;navbar&quot;&gt; (link: &quot;Start&quot;)[(goto:&quot;Start&quot;)] • (link: &quot;生詞&quot;)[(goto:&quot;生詞&quot;)] • (link:&quot;生詞-吉祥話&quot;)[(goto:&quot;生詞-吉祥話&quot;)]• (link:&quot;生詞-食物&quot;)[(goto:&quot;生詞-食物&quot;)] • (link:&quot;買水果挑戰&quot;)[(goto:&quot;Fruit-Start&quot;)]  • (link:&quot;吉祥話挑戰&quot;)[(goto:&quot;Food-Start&quot;)]• (link:&quot;課後練習&quot;)[(goto:&quot;課後練習&quot;)] &lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="UI-Progress" tags="" position="0,400" size="100,100">(set: _numPct to (round:((($progress&#39;s &quot;vocab&quot;) + ($progress&#39;s &quot;pattern&quot;) + ($progress&#39;s &quot;text&quot;) + ($progress&#39;s &quot;practice&quot;)) / 4) * 100))
+[[開始|Start]]</tw-passagedata><tw-passagedata pid="3" name="UI-Nav" tags="" position="0,250" size="100,100">&lt;div class=&quot;navbar&quot;&gt; (link: &quot;Start&quot;)[(goto:&quot;Start&quot;)] • (link: &quot;生詞&quot;)[(goto:&quot;生詞&quot;)] • (link:&quot;生詞-吉祥話&quot;)[(goto:&quot;生詞-吉祥話&quot;)]• (link:&quot;生詞-食物&quot;)[(goto:&quot;生詞-食物&quot;)] • (link:&quot;課後練習&quot;)[(goto:&quot;課後練習&quot;)]• (link:&quot;買水果挑戰&quot;)[(goto:&quot;Fruit-Start&quot;)]  • (link:&quot;吉祥話挑戰&quot;)[(goto:&quot;Food-Start&quot;)] &lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="UI-Progress" tags="" position="0,400" size="100,100">(set: _numPct to (round:((($progress&#39;s &quot;vocab&quot;) + ($progress&#39;s &quot;pattern&quot;) + ($progress&#39;s &quot;text&quot;) + ($progress&#39;s &quot;practice&quot;)) / 4) * 100))
 (set: _pct to (str: _numPct) + &quot;%&quot;)
 (print: &#39;&lt;span class=&quot;bar bar--inline&quot;&gt;&lt;div class=&quot;fill&quot; style=&quot;width:&#39; + _pct + &#39;;&quot; data-pct=&quot;&#39; + _pct + &#39;&quot;&gt;&#39; + _pct + &#39;&lt;/div&gt;&lt;/span&gt;&#39;)</tw-passagedata><tw-passagedata pid="5" name="漢字練習" tags="" position="550,525" size="100,100">(display:&quot;UI-Nav&quot;)
 Instructions and Button Guide:
